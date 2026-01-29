@@ -114,7 +114,7 @@ export default function Footer() {
             © {currentYear} Somos A Cuadrado. Todos los derechos reservados.
           </p>
 
-          {/* Social Links */}
+   {/* Social Links */}
           <div className="flex gap-4">
             <a
               href="https://wa.me/56912345678"
@@ -144,6 +144,7 @@ export default function Footer() {
               <Instagram size={20} />
             </a>
           </div>
+
         </div>
       </div>
     </footer>
