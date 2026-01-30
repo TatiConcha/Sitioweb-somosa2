@@ -15,6 +15,11 @@ import logo from '../assets/Logo.png';
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
+  const whatsappMessage = encodeURIComponent(
+  'Hola, me gustaría solicitar una cotización para un proyecto de remodelación.'
+);
+const whatsappLink = `https://wa.me/56967261907?text=${whatsappMessage}`;
+
 
   const menuItems = [
     { label: 'Inicio', href: '#inicio' },
@@ -51,7 +56,7 @@ export default function Navigation() {
             </a>
           ))}
           <a
-            href="https://wa.me/56967261907"
+            href={whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-lg bg-green-500 hover:bg-green-600 text-white transition-all duration-300 hover:shadow-lg hover:shadow-green-500/50"
@@ -87,7 +92,7 @@ export default function Navigation() {
               </a>
             ))}
             <a
-              href="https://api.whatsapp.com/send?phone=56967261907"
+              href={whatsappLink}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 p-3 rounded-lg bg-green-500 hover:bg-green-600 text-white transition-all duration-300 font-semibold"
