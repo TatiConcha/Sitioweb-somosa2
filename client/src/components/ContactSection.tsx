@@ -11,7 +11,7 @@ const whatsappLink = 'https://api.whatsapp.com/send?phone=56967261907';
 
 export default function ContactSection() {
   const whatsappMessage = encodeURIComponent('Hola, me gustaría solicitar una cotización para un proyecto de remodelación.');
-  const whatsappLink = `https://wa.me/5696721907?text=${whatsappMessage}`;
+  const whatsappLink = `https://wa.me/+56 9 6721 907?text=${whatsappMessage}`;
 
   return (
     <section id="contacto" className="py-20 md:py-32 bg-background">
@@ -63,7 +63,7 @@ export default function ContactSection() {
 
             {/* Phone */}
             <a
-              href="tel:+56967261907"
+              href="tel:+56 9 6726 1907"
               className="flex flex-col items-center gap-4 p-8 bg-card border border-border rounded-xl hover:border-accent hover:shadow-lg hover:shadow-accent/20 transition-all duration-300 group animate-in fade-in slide-in-from-bottom-8 delay-200"
             >
               <div className="p-4 bg-blue-500/10 rounded-lg group-hover:bg-blue-500/20 transition-colors duration-300">
