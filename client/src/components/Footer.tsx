@@ -117,7 +117,7 @@ export default function Footer() {
    {/* Social Links */}
           <div className="flex gap-4">
             <a
-              href="https://wa.me/+56967261907"
+              href="https://wa.me/56967261907"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-lg bg-background border border-border hover:border-accent hover:text-accent transition-all duration-300"

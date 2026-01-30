@@ -11,7 +11,7 @@ const whatsappLink = 'https://api.whatsapp.com/send?phone=56967261907';
 
 export default function ContactSection() {
   const whatsappMessage = encodeURIComponent('Hola, me gustaría solicitar una cotización para un proyecto de remodelación.');
-  const whatsappLink = `https://wa.me/+56967261907?text=${whatsappMessage}`;
+  const whatsappLink = `https://wa.me/56967261907?text=${whatsappMessage}`;
 
   return (
     <section id="contacto" className="py-20 md:py-32 bg-background">

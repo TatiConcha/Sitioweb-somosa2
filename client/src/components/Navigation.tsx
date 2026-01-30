@@ -51,7 +51,7 @@ export default function Navigation() {
             </a>
           ))}
           <a
-            href="https://wa.me/56912345678"
+            href="https://wa.me/56967261907"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-lg bg-green-500 hover:bg-green-600 text-white transition-all duration-300 hover:shadow-lg hover:shadow-green-500/50"
