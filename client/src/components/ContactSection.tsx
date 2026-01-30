@@ -11,7 +11,7 @@ const whatsappLink = 'https://api.whatsapp.com/send?phone=56967261907';
 
 export default function ContactSection() {
   const whatsappMessage = encodeURIComponent('Hola, me gustaría solicitar una cotización para un proyecto de remodelación.');
-  const whatsappLink = `https://wa.me/56912345678?text=${whatsappMessage}`;
+  const whatsappLink = `https://wa.me/5696721907?text=${whatsappMessage}`;
 
   return (
     <section id="contacto" className="py-20 md:py-32 bg-background">
@@ -22,7 +22,7 @@ export default function ContactSection() {
             Solicita tu cotización
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Estamos listos para transformar tu espacio. Contáctanos hoy y comencemos a trabajar en tu proyecto.
+            Estamos listos para transformar tu espacio. Contáctanos hoy y comencemos a trabajar juntos en tu proyecto.
           </p>
         </div>
 

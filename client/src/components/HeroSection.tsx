@@ -31,11 +31,11 @@ export default function HeroSection() {
       <div className="relative h-full flex flex-col items-center justify-center container mx-auto px-4 text-center">
         <div className="max-w-3xl space-y-6 animate-in fade-in slide-in-from-bottom-8 duration-1000">
           <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight">
-            Transformamos tus espacios
+            Transformamos tus espacios en el lugar que soñaste
           </h1>
 
           <p className="text-lg md:text-xl text-gray-200 leading-relaxed">
-            Remodelación y construcción de casas, departamentos y espacios corporativos con calidad y precisión.
+            Diseño, remodelación y construcción de casas, departamentos y espacios corporativos con calidad y precisión.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
