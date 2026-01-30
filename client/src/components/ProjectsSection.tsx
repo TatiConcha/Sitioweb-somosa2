@@ -14,7 +14,7 @@ import { ChevronRight } from 'lucide-react';
 interface Project {
   id: string;
   title: string;
-  category: 'exterior' | 'interior' | 'corporativo';
+  category: 'exterior' | 'interior';
   image: string;
   description: string;
 }
@@ -34,13 +34,7 @@ const projects: Project[] = [
     image: '/images/project-interior-1.jpg',
     description: 'Renovación integral de espacios interiores',
   },
-  {
-    id: '3',
-    title: 'Oficinas Corporativas',
-    category: 'corporativo',
-    image: '/images/project-corporate-1.jpg',
-    description: 'Diseño y construcción de espacio de trabajo moderno',
-  },
+  
   {
     id: '4',
     title: 'Casa Contemporánea Las Condes',
@@ -51,7 +45,7 @@ const projects: Project[] = [
 ];
 
 export default function ProjectsSection() {
-  const [selectedCategory, setSelectedCategory] = useState<'all' | 'exterior' | 'interior' | 'corporativo'>('all');
+  const [selectedCategory, setSelectedCategory] = useState<'all' | 'exterior' | 'interior'>('all');
 
   const filteredProjects = selectedCategory === 'all'
     ? projects
@@ -61,7 +55,7 @@ export default function ProjectsSection() {
     { id: 'all', label: 'Todos', icon: '🏢' },
     { id: 'exterior', label: 'Exteriores', icon: '🏠' },
     { id: 'interior', label: 'Interiores', icon: '🛋️' },
-    { id: 'corporativo', label: 'Corporativos', icon: '🏢' },
+    
   ];
 
   return (
@@ -73,7 +67,7 @@ export default function ProjectsSection() {
             Nuestros Proyectos
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Cada proyecto es una historia única de transformación. Explora nuestro portafolio de trabajos realizados en casas, departamentos y espacios corporativos.
+            Cada proyecto es una historia única de transformación. Explora nuestro portafolio de trabajos realizados en casas, departamentos, tanto en interiores como en exteriores.
           </p>
         </div>
 
