@@ -18,7 +18,7 @@ export default function Navigation() {
   const whatsappMessage = encodeURIComponent(
   'Hola, me gustaría solicitar una cotización para un proyecto de remodelación.'
 );
-const whatsappLink = `https://api.whatsapp.com/send?phone=56967261907&text=${whatsappMessage}`;
+const whatsappLink = `https://wa.me/56967261907?text=${whatsappMessage}`;
 
 
   const menuItems = [

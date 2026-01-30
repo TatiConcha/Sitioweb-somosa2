@@ -59,9 +59,14 @@ export default function SocialMediaSection() {
         {/* Instagram Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 mb-12">
           {instagramPosts.map((post, index) => (
-            <div
+
+            
+            <a
               key={post.id}
-              className="group relative overflow-hidden rounded-lg aspect-square bg-card shadow-lg animate-in fade-in slide-in-from-bottom-8 hover-lift"
+              href="https://www.instagram.com/somosacuadrado/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="group relative overflow-hidden rounded-lg aspect-square bg-card shadow-lg animate-in fade-in slide-in-from-bottom-8 hover-lift block"
               style={{ animationDelay: `${index * 50}ms` }}
             >
               {/* Image */}
@@ -80,7 +85,7 @@ export default function SocialMediaSection() {
               <div className="absolute top-3 right-3 p-2 bg-black/50 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <Instagram size={16} className="text-white" />
               </div>
-            </div>
+            </a>
           ))}
         </div>
 
@@ -90,11 +95,15 @@ export default function SocialMediaSection() {
             asChild
             className="bg-accent hover:bg-accent/90 text-white rounded-lg px-8 py-3 font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-accent/50 flex items-center gap-2"
           >
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-              <Instagram size={20} />
-              Seguir en Instagram
-              <ExternalLink size={16} />
-            </a>
+            <a
+  href="https://www.instagram.com/somosacuadrado/"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Instagram size={20} />
+  Seguir en Instagram
+  <ExternalLink size={16} />
+</a>
           </Button>
         </div>
       </div>
