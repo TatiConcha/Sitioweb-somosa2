@@ -1,13 +1,4 @@
-import { Facebook, Instagram, MessageCircle } from 'lucide-react';
-
-/**
- * Footer Component
- * Design: Minimalismo Corporativo - Footer limpio con información y redes sociales
- * - Links rápidos
- * - Información de contacto
- * - Redes sociales
- * - Copyright
- */
+import { Instagram, MessageCircle } from 'lucide-react'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -16,6 +7,7 @@ export default function Footer() {
     <footer className="bg-card border-t border-border">
       <div className="container mx-auto px-4 py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+          
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-4">
@@ -25,7 +17,7 @@ export default function Footer() {
               <h3 className="text-lg font-bold text-foreground">Somos A Cuadrado</h3>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Transformamos espacios con calidad, precisión y dedicación.
+              Especialistas en remodelación de espacios interiores y exteriores en Santiago, combinando diseño, calidad y ejecución precisa en cada proyecto.
             </p>
           </div>
 
@@ -71,11 +63,6 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#proyectos" className="text-sm text-muted-foreground hover:text-accent transition-colors">
-                  Proyectos Corporativos
-                </a>
-              </li>
-              <li>
                 <a href="#contacto" className="text-sm text-muted-foreground hover:text-accent transition-colors">
                   Cotizaciones
                 </a>
@@ -93,7 +80,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:info@somosacuadrado.cl" className="text-sm text-muted-foreground hover:text-accent transition-colors">
+                <a href="mailto:hola@somosa2.cl" className="text-sm text-muted-foreground hover:text-accent transition-colors">
                   hola@somosa2.cl
                 </a>
               </li>
@@ -109,15 +96,30 @@ export default function Footer() {
 
         {/* Bottom Section */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-          {/* Copyright */}
-          <p className="text-sm text-muted-foreground">
-            © {currentYear} Somos A Cuadrado. Todos los derechos reservados.
-          </p>
+          
+          {/* Copyright + Crédito */}
+          <div className="text-center md:text-left">
+            <p className="text-sm text-muted-foreground">
+              © {currentYear} Somos A Cuadrado. Todos los derechos reservados.
+            </p>
 
-   {/* Social Links */}
+            <p className="text-sm text-muted-foreground mt-1">
+              Diseño & Desarrollo Web —
+              <a
+                href="https://wa.me/56984301071?text=Hola%2C%20vi%20tu%20dise%C3%B1o%20y%20desarrollo%20web%20y%20me%20gustar%C3%ADa%20cotizar%20una%20p%C3%A1gina%20web%20contigo."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-foreground ml-1 hover:underline hover:text-accent transition-colors"
+              >
+                La Rubia Digital
+              </a>
+            </p>
+          </div>
+
+          {/* Social Links */}
           <div className="flex gap-4">
             <a
-              href="https://wa.me/56967261907"
+              href="https://wa.me/56967261907?text=Hola%2C%20me%20gustar%C3%ADa%20solicitar%20una%20cotizaci%C3%B3n%20para%20un%20proyecto%20de%20remodelaci%C3%B3n."
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-lg bg-background border border-border hover:border-accent hover:text-accent transition-all duration-300"
@@ -125,17 +127,9 @@ export default function Footer() {
             >
               <MessageCircle size={20} />
             </a>
+
             <a
-              href="https://facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-3 rounded-lg bg-background border border-border hover:border-accent hover:text-accent transition-all duration-300"
-              aria-label="Facebook"
-            >
-              <Facebook size={20} />
-            </a>
-            <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/somosacuadrado/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-lg bg-background border border-border hover:border-accent hover:text-accent transition-all duration-300"
