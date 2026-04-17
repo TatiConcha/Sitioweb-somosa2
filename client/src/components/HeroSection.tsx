@@ -1,15 +1,12 @@
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 
-/**
- * Hero Section Component
- * Design: Minimalismo Corporativo - Imagen de fondo con overlay y texto centrado
- * - Imagen de proyecto premium como fondo
- * - Overlay oscuro para legibilidad
- * - CTA prominente en rojo
- * - Animación de entrada suave
- */
 export default function HeroSection() {
+  const whatsappMessage = encodeURIComponent(
+    'Hola, quiero cotizar un proyecto de remodelación.'
+  );
+  const whatsappLink = `https://wa.me/56967261907?text=${whatsappMessage}`;
+
   return (
     <section
       id="inicio"
@@ -30,34 +27,42 @@ export default function HeroSection() {
       {/* Content */}
       <div className="relative h-full flex flex-col items-center justify-center container mx-auto px-4 text-center">
         <div className="max-w-3xl space-y-6 animate-in fade-in slide-in-from-bottom-8 duration-1000">
+          
+          {/* H1 */}
           <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight">
-            Transformamos tus espacios en el lugar que soñaste
+            Hacemos realidad tus espacios con remodelación y construcción de calidad
           </h1>
 
+          {/* Párrafo */}
           <p className="text-lg md:text-xl text-gray-200 leading-relaxed">
-            Diseño, remodelación y construcción de casas, departamentos y espacios corporativos con calidad y precisión.
+            Especialistas en remodelación y construcción de casas y departamentos en Chile. Calidad, precisión y resultados que superan expectativas.
           </p>
 
+          {/* Botones */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
+
+            {/* CTA PRINCIPAL */}
             <Button
               size="lg"
               className="bg-accent hover:bg-accent/90 text-white rounded-lg px-8 py-6 text-lg font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-accent/50 flex items-center gap-2"
               asChild
             >
-              <a href="#proyectos">
-                Ver Proyectos
+              <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
+                Solicitar Cotización
                 <ArrowRight size={20} />
               </a>
             </Button>
 
+            {/* CTA SECUNDARIO */}
             <Button
               size="lg"
               variant="outline"
               className="border-white text-white hover:bg-white/10 rounded-lg px-8 py-6 text-lg font-semibold transition-all duration-300"
               asChild
             >
-              <a href="#contacto">Solicitar Cotización</a>
+              <a href="#proyectos">Ver Proyectos</a>
             </Button>
+
           </div>
         </div>
       </div>
@@ -71,4 +76,3 @@ export default function HeroSection() {
     </section>
   );
 }
-

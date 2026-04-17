@@ -3,6 +3,12 @@ import { Instagram, MessageCircle } from 'lucide-react'
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
+  const whatsappMessage = encodeURIComponent(
+  'Hola, quiero cotizar un proyecto de remodelación.'
+);
+
+const whatsappLink = `https://wa.me/56967261907?text=${whatsappMessage}`;
+
   return (
     <footer className="bg-card border-t border-border">
       <div className="container mx-auto px-4 py-12 md:py-16">
@@ -17,7 +23,7 @@ export default function Footer() {
               <h3 className="text-lg font-bold text-foreground">Somos A Cuadrado</h3>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Especialistas en remodelación de espacios interiores y exteriores en Santiago, combinando diseño, calidad y ejecución precisa en cada proyecto.
+              Especialistas en remodelación de espacios interiores y exteriores en Santiago. Combinamos diseño, calidad y ejecución precisa en cada proyecto.
             </p>
           </div>
 
@@ -118,26 +124,30 @@ export default function Footer() {
 
           {/* Social Links */}
           <div className="flex gap-4">
-            <a
-              href="https://wa.me/56967261907?text=Hola%2C%20me%20gustar%C3%ADa%20solicitar%20una%20cotizaci%C3%B3n%20para%20un%20proyecto%20de%20remodelaci%C3%B3n."
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-3 rounded-lg bg-background border border-border hover:border-accent hover:text-accent transition-all duration-300"
-              aria-label="WhatsApp"
-            >
-              <MessageCircle size={20} />
-            </a>
 
-            <a
-              href="https://www.instagram.com/somosacuadrado/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-3 rounded-lg bg-background border border-border hover:border-accent hover:text-accent transition-all duration-300"
-              aria-label="Instagram"
-            >
-              <Instagram size={20} />
-            </a>
-          </div>
+  {/* WhatsApp */}
+  <a
+    href={whatsappLink}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="p-3 rounded-lg bg-background border border-border hover:border-accent hover:text-accent transition-all duration-300"
+    aria-label="WhatsApp"
+  >
+    <MessageCircle size={20} />
+  </a>
+
+  {/* Instagram */}
+  <a
+    href="https://www.instagram.com/somosacuadrado/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="p-3 rounded-lg bg-background border border-border hover:border-accent hover:text-accent transition-all duration-300"
+    aria-label="Instagram"
+  >
+    <Instagram size={20} />
+  </a>
+
+</div>
 
         </div>
       </div>
