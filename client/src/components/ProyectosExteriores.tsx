@@ -1,7 +1,13 @@
+import { useEffect } from "react";
 import Navbar from "@/components/Navigation"
 import Footer from "@/components/Footer";
 
 export default function ProyectosExteriores() {
+
+     useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   const projects = [
     {
       id: 1,

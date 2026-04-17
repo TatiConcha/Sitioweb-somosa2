@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Navigation from '@/components/Navigation';
 import HeroSection from '@/components/HeroSection';
 import ProjectsSection from '@/components/ProjectsSection';
@@ -8,16 +9,24 @@ import Footer from '@/components/Footer';
 
 /**
  * Home Page
- * Design: Minimalismo Corporativo Sofisticado
- * - Navegación sticky
- * - Hero section con imagen de fondo
- * - Sección de proyectos con filtrado
- * - Testimonios en carrusel
- * - Formulario de contacto
- * - Footer con información
+ 
  */
 
 export default function Home() {
+
+  useEffect(() => {
+    const hash = window.location.hash;
+
+    if (hash) {
+      const element = document.querySelector(hash);
+      if (element) {
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: "smooth" });
+        }, 100);
+      }
+    }
+  }, []);
+  
   return (
     <div className="min-h-screen bg-background text-foreground">
       <Navigation />
