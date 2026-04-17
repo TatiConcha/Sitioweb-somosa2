@@ -80,6 +80,11 @@ export default function ProyectosInteriores() {
                 <h3 className="mt-4 text-lg font-semibold text-foreground">
                   {project.title}
                 </h3>
+                <p className="text-muted-foreground mt-2 text-sm leading-relaxed">
+  {project.id === 2
+    ? 'Renovación integral de cocina con mejoras en diseño, funcionalidad e iluminación.'
+    : 'Proyecto de interiorismo y remodelación residencial.'}
+</p>
 
               </div>
             ))}
