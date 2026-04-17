@@ -22,14 +22,14 @@ const testimonials: Testimonial[] = [
   {
     id: '1',
     name: 'Pablo Álamos',
-    role: 'Propietaria - Casa La Reina',
+    role: 'Propietario - Casa La Reina',
     text: 'Tuvimos una experiencia excelente. Nunca tuvimos un problema en la comunicación, si algo debía sumarse o cambiarse, siempre una pregunta antes. La verdad que muy felices, la postventa debe ser única... Parece que fueran amigos. Recomendadísimos.',
     rating: 5,
   },
   {
     id: '2',
     name: 'Hernán Correa',
-    role: 'Propietaria - Departamento Los Acantos',
+    role: 'Propietario - Departamento Los Acantos',
     text: 'Excelente trabajo. Nos encantó la cercanía, compromiso y profesionalismo de Ángel y su equipo durante todo el proceso de remodelación. Cumplieron con los plazos, siempre atentos a los detalles y dispuestos a resolver cualquier duda o ajuste incluso después de terminado el proyecto. Se nota que les importa la satisfacción del cliente. ¡Muy recomendados!',
     rating: 5,
   },
@@ -81,10 +81,10 @@ export default function TestimonialsSection() {
         {/* Section Header */}
         <div className="max-w-3xl mx-auto text-center mb-16 animate-in fade-in slide-in-from-bottom-8">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Lo que dicen nuestros clientes
+            Lo que opinan nuestros clientes
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Nuestros clientes confían en nosotros porque cumplimos lo que prometemos. Cada proyecto es una oportunidad para demostrar compromiso, calidad y dedicación en cada detalle.
+            Nuestros clientes confían en nosotros por la calidad de nuestras remodelaciones y la dedicación en cada proyecto de interiores y exteriores.
           </p>
         </div>
 
