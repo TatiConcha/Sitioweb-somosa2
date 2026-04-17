@@ -1,4 +1,4 @@
-import Navbar from "@/components/Navigation"; // ajusta si tu navbar tiene otro nombre
+import Navbar from "@/components/Navigation"
 import Footer from "@/components/Footer";
 
 export default function ProyectosExteriores() {
@@ -25,12 +25,12 @@ export default function ProyectosExteriores() {
     },
   ];
 
-  // 👉 CAMBIA ESTE NÚMERO POR EL TUYO (formato internacional sin +)
-  const whatsappNumber = "5696726190"
-
-  const message = encodeURIComponent(
-    "Hola, quiero cotizar un proyecto de remodelación."
+  // ✅ TU CONFIGURACIÓN ORIGINAL DE WHATSAPP
+  const whatsappMessage = encodeURIComponent(
+    'Hola, quiero cotizar un proyecto de exteriore.'
   );
+
+  const whatsappLink = `https://wa.me/56967261907?text=${whatsappMessage}`;
 
   return (
     <>
@@ -53,12 +53,10 @@ export default function ProyectosExteriores() {
 
           {/* GRID */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-
             {projects.map((project) => (
               <div key={project.id} className="group cursor-pointer">
 
                 <div className="relative overflow-hidden rounded-xl aspect-[4/5] shadow-lg">
-
                   <img
                     src={project.image}
                     alt={project.title}
@@ -70,7 +68,6 @@ export default function ProyectosExteriores() {
                       Ver proyecto →
                     </span>
                   </div>
-
                 </div>
 
                 <h3 className="mt-4 text-lg font-semibold text-foreground">
@@ -79,17 +76,16 @@ export default function ProyectosExteriores() {
 
               </div>
             ))}
-
           </div>
 
-          {/* CTA WHATSAPP */}
+          {/* CTA CON TU LINK DE WHATSAPP */}
           <div className="text-center mt-24">
             <h3 className="text-2xl font-bold mb-4">
               ¿Quieres transformar tu espacio exterior?
             </h3>
 
             <a
-              href={`https://wa.me/${whatsappNumber}?text=${message}`}
+              href={whatsappLink}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-accent text-white px-8 py-3 rounded-lg font-semibold hover:bg-accent/90 transition"
