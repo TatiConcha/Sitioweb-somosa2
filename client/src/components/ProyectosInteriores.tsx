@@ -11,13 +11,13 @@ export default function ProyectosInteriores() {
   const projects = [
     {
       id: 1,
-      title: 'Departamento Vitacura',
+      title: 'Departamento La Capitania',
       image: '/images/project-interior-1.jpg',
     },
     {
       id: 2,
-      title: 'Cocina Chicureo',
-      image: '/images/project-interior-2.jpg',
+      title: 'Cocina Roger de Flor',
+      image:  '/images/roger-de-flor/hero.jpg',
     },
     {
       id: 3,

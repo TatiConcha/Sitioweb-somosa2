@@ -71,7 +71,7 @@ export default function SocialMediaSection() {
 
 {post.isVideo && (
   <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-    <div className="bg-black/50 rounded-full p-4">
+    <div className="bg-black/50 rounded-full p-3">
       <svg
         width="28"
         height="28"
