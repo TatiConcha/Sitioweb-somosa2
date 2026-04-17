@@ -56,25 +56,39 @@ const whatsappLink = `https://wa.me/56967261907?text=${whatsappMessage}`;
 
           {/* Services */}
           <div>
-            <h4 className="font-semibold text-foreground mb-4">Servicios</h4>
-            <ul className="space-y-2">
-              <li>
-                <a href="#proyectos" className="text-sm text-muted-foreground hover:text-accent transition-colors">
-                  Proyectos Exteriores
-                </a>
-              </li>
-              <li>
-                <a href="#proyectos" className="text-sm text-muted-foreground hover:text-accent transition-colors">
-                  Proyectos Interiores
-                </a>
-              </li>
-              <li>
-                <a href="#contacto" className="text-sm text-muted-foreground hover:text-accent transition-colors">
-                  Cotizaciones
-                </a>
-              </li>
-            </ul>
-          </div>
+  <h4 className="font-semibold text-foreground mb-4">Servicios</h4>
+
+  <ul className="space-y-2">
+    <li>
+      <a
+        href="/proyectos/exteriores"
+        className="text-sm text-muted-foreground hover:text-accent transition-colors"
+      >
+        Proyectos Exteriores
+      </a>
+    </li>
+
+    <li>
+      <a
+        href="/proyectos/interiores"
+        className="text-sm text-muted-foreground hover:text-accent transition-colors"
+      >
+        Proyectos Interiores
+      </a>
+    </li>
+
+    <li>
+      <a
+        href={whatsappLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-sm text-muted-foreground hover:text-accent transition-colors"
+      >
+        Cotizaciones
+      </a>
+    </li>
+  </ul>
+</div>
 
           {/* Contact Info */}
           <div>
