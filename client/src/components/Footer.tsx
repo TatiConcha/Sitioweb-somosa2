@@ -1,4 +1,5 @@
 import { Instagram, MessageCircle } from 'lucide-react'
+import { Link } from "wouter";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -60,21 +61,19 @@ const whatsappLink = `https://wa.me/56967261907?text=${whatsappMessage}`;
 
   <ul className="space-y-2">
     <li>
-      <a
-        href="/proyectos/exteriores"
-        className="text-sm text-muted-foreground hover:text-accent transition-colors"
-      >
-        Proyectos Exteriores
-      </a>
+      <Link href="/proyectos/exteriores">
+  <span className="text-sm text-muted-foreground hover:text-accent transition-colors cursor-pointer">
+    Proyectos Exteriores
+  </span>
+</Link>
     </li>
 
     <li>
-      <a
-        href="/proyectos/interiores"
-        className="text-sm text-muted-foreground hover:text-accent transition-colors"
-      >
-        Proyectos Interiores
-      </a>
+     <Link href="/proyectos/interiores">
+  <span className="text-sm text-muted-foreground hover:text-accent transition-colors cursor-pointer">
+    Proyectos Interiores
+  </span>
+</Link>
     </li>
 
     <li>
