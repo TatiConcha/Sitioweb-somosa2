@@ -32,22 +32,22 @@ const whatsappLink = `https://wa.me/56967261907?text=${whatsappMessage}`;
             <h4 className="font-semibold text-foreground mb-4">Enlaces rápidos</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#inicio" className="text-sm text-muted-foreground hover:text-accent transition-colors">
+                <a href="/#inicio" className="text-sm text-muted-foreground hover:text-accent transition-colors">
                   Inicio
                 </a>
               </li>
               <li>
-                <a href="#proyectos" className="text-sm text-muted-foreground hover:text-accent transition-colors">
+                <a href="/#proyectos" className="text-sm text-muted-foreground hover:text-accent transition-colors">
                   Proyectos
                 </a>
               </li>
               <li>
-                <a href="#testimonios" className="text-sm text-muted-foreground hover:text-accent transition-colors">
+                <a href="/#testimonios" className="text-sm text-muted-foreground hover:text-accent transition-colors">
                   Testimonios
                 </a>
               </li>
               <li>
-                <a href="#contacto" className="text-sm text-muted-foreground hover:text-accent transition-colors">
+                <a href="/#contacto" className="text-sm text-muted-foreground hover:text-accent transition-colors">
                   Contacto
                 </a>
               </li>

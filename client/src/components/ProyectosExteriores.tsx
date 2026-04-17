@@ -27,7 +27,7 @@ export default function ProyectosExteriores() {
 
   // ✅ TU CONFIGURACIÓN ORIGINAL DE WHATSAPP
   const whatsappMessage = encodeURIComponent(
-    'Hola, quiero cotizar un proyecto de exteriore.'
+    'Hola, quiero cotizar un proyecto de exterior.'
   );
 
   const whatsappLink = `https://wa.me/56967261907?text=${whatsappMessage}`;

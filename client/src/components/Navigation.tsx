@@ -22,10 +22,10 @@ const whatsappLink = `https://wa.me/56967261907?text=${whatsappMessage}`;
 
 
   const menuItems = [
-    { label: 'Inicio', href: '#inicio' },
-    { label: 'Proyectos', href: '#proyectos' },
-    { label: 'Testimonios', href: '#testimonios' },
-    { label: 'Contacto', href: '#contacto' },
+    { label: 'Inicio', href:'/#inicio'},
+    { label: 'Proyectos', href:'/#proyectos'},
+    { label: 'Testimonios', href:'/#testimonios'},
+    { label: 'Contacto', href: '/#contacto'},
   ];
 
   return (
