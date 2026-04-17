@@ -12,12 +12,14 @@ export default function ProyectosInteriores() {
     {
       id: 1,
       title: 'Departamento La Capitania',
-      image: '/images/project-interior-1.jpg',
+      image: '/images/la-capiania/hero.jpg',
+      description: 'Remodelación integral de cocina, baños y espacios interiores con mejoras en diseño, funcionalidad e iluminación.',
     },
     {
       id: 2,
       title: 'Cocina Roger de Flor',
       image:  '/images/roger-de-flor/hero.jpg',
+      description: 'Renovación integral de cocina con mejoras en diseño, funcionalidad e iluminación.',
     },
     {
       id: 3,
@@ -81,11 +83,8 @@ export default function ProyectosInteriores() {
                   {project.title}
                 </h3>
                 <p className="text-muted-foreground mt-2 text-sm leading-relaxed">
-  {project.id === 2
-    ? 'Renovación integral de cocina con mejoras en diseño, funcionalidad e iluminación.'
-    : 'Proyecto de interiorismo y remodelación residencial.'}
+  {project.description}
 </p>
-
               </div>
             ))}
           </div>
