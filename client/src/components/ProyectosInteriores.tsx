@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Navbar from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import { Link } from "react-router-dom";
 
 export default function ProyectosInteriores() {
 
@@ -17,6 +18,7 @@ export default function ProyectosInteriores() {
     },
     {
       id: 2,
+      slug: 'cocina-roger-de-flor',
       title: 'Cocina Roger de Flor',
       image:  '/images/roger-de-flor/hero.jpg',
       description: 'Renovación integral de cocina con mejoras en diseño, funcionalidad e iluminación.',
@@ -62,7 +64,11 @@ export default function ProyectosInteriores() {
           {/* GRID */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project) => (
-              <div key={project.id} className="group cursor-pointer">
+              <Link
+  to={`/proyectos/${project.slug}`}
+  key={project.id}
+  className="group cursor-pointer block"
+>
 
                 <div className="relative overflow-hidden rounded-xl aspect-[4/5] shadow-lg">
                   <img
@@ -85,7 +91,7 @@ export default function ProyectosInteriores() {
                 <p className="text-muted-foreground mt-2 text-sm leading-relaxed">
   {project.description}
 </p>
-              </div>
+              </Link>
             ))}
           </div>
 

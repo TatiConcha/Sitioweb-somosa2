@@ -26,10 +26,10 @@ export default function HeroSection() {
 
       {/* Content */}
       <div className="relative h-full flex flex-col items-center justify-center container mx-auto px-4 text-center">
-        <div className="max-w-3xl space-y-6 animate-in fade-in slide-in-from-bottom-8 duration-1000">
+        <div className="max-w-2xl space-y-6 animate-in fade-in slide-in-from-bottom-8 duration-1000">
           
           {/* H1 */}
-          <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight">
+          <h1 className="text-5xl md:text-6xl font-bold text-white leading-none">
             Hacemos realidad tus espacios con remodelación y construcción de calidad
           </h1>
 
