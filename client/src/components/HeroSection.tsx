@@ -10,7 +10,7 @@ export default function HeroSection() {
   return (
     <section
       id="inicio"
-      className="relative w-full h-screen bg-background overflow-hidden pt-20"
+      className="relative w-full min-h-screen bg-background overflow-hidden pt-20"
     >
       {/* Background Image */}
       <div
@@ -67,12 +67,6 @@ export default function HeroSection() {
         </div>
       </div>
 
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-white rounded-full flex items-start justify-center p-2">
-          <div className="w-1 h-2 bg-white rounded-full animate-pulse" />
-        </div>
-      </div>
     </section>
   );
 }
