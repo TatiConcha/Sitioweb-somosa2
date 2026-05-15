@@ -26,14 +26,14 @@ export default function ProyectosInteriores() {
     },
     {
       id: 3,
-      slug: 'living-las-condes',
-      title: 'Living Las Condes',
-      image: '/images/project-interior-1.jpg',
+      slug: 'departamento-luisa-guzmán',
+      title: 'Departamento Luisa Guzmán',
+      image: '/images/luisa-guzman/01_luisag.jpg',
     },
     {
       id: 4,
-       slug: 'bano-contemporaneo',
-      title: 'Baño Contemporáneo',
+       slug: 'departamento-suecia',
+      title: 'Departamento Suecia',
       image: '/images/project-interior-2.jpg',
     },
   ];
