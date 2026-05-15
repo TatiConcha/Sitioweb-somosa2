@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Navbar from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Link } from "wouter";
+import { projects } from "@/data/projects";
 
 export default function ProyectosInteriores() {
 
@@ -9,35 +10,9 @@ export default function ProyectosInteriores() {
     window.scrollTo(0, 0);
   }, []);
 
-  const projects = [
-    {
-      id: 1,
-      slug: 'departamento-la-capitania',
-      title: 'Departamento La Capitania',
-      image: '/images/la-capitania/03_cocina.png',
-      description: 'Remodelación integral de cocina, baños y espacios interiores con mejoras en diseño, funcionalidad e iluminación.',
-    },
-    {
-      id: 2,
-      slug: 'cocina-roger-de-flor',
-      title: 'Cocina Roger de Flor',
-      image:  '/images/roger-de-flor/hero.jpg',
-      description: 'Renovación integral de cocina con mejoras en diseño, funcionalidad e iluminación.',
-    },
-    {
-      id: 3,
-      slug: 'departamento-luisa-guzmán',
-      title: 'Departamento Luisa Guzmán',
-      image: '/images/luisa-guzman/01_luisag.jpeg',
-      description: 'Renovación de dormitorios y baños con mejoras en diseño e iluminación.',
-    },
-    {
-      id: 4,
-       slug: 'departamento-suecia',
-      title: 'Departamento Suecia',
-      image: '/images/project-interior-2.jpg',
-    },
-  ];
+  const interiorProjects = projects.filter(
+  (project) => project.category === "interior"
+);
 
   const whatsappMessage = encodeURIComponent(
     'Hola, quiero cotizar un proyecto de interior.'

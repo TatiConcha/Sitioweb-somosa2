@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Navbar from "@/components/Navigation"
 import Footer from "@/components/Footer";
 import { Link } from "wouter";
+import { projects } from "@/data/projects";
 
 export default function ProyectosExteriores() {
 
@@ -9,32 +10,9 @@ export default function ProyectosExteriores() {
     window.scrollTo(0, 0);
   }, []);
   
-  const projects = [
-    {
-      id: 1,
-      slug: 'fachada-la-reina',
-      title: 'Fachada - La Reina',
-      image: '/images/project-exterior-1.jpg',
-    },
-    {
-      id: 2,
-      slug: 'techo-nunoa',
-      title: 'Techo - Ñuñoa',
-      image: '/images/project-exterior-2.jpg',
-    },
-    {
-      id: 3,
-      slug: 'forraje-galpon-independencia',
-      title: 'Forraje galpón - Independencia',
-      image: '/images/galpon-lapaz/terminado.jpg',
-    },
-    {
-      id: 4,
-      slug: 'colegio',
-      title: 'Colegio',
-      image: '/images/project-exterior-2.jpg',
-    },
-  ];
+  const exteriorProjects = projects.filter(
+  (project) => project.category === "exterior"
+);
 
   // ✅ TU CONFIGURACIÓN ORIGINAL DE WHATSAPP
   const whatsappMessage = encodeURIComponent(
@@ -66,7 +44,7 @@ export default function ProyectosExteriores() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-  {projects.map((project) => (
+  {exteriorProjects.map((project) => (
 
     <Link
       href={`/proyectos/${project.slug}`}
