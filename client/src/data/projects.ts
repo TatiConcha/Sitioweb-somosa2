@@ -1,40 +1,43 @@
-export const interiorProjects = [
+export const projects = [
+
+  {
+    slug: "fachada-la-reina",
+
+    title: "Fachada La Reina",
+
+    category: "exterior",
+
+    description:
+      "Remodelación completa de fachada exterior con renovación de revestimientos y pintura.",
+
+    heroImage: "/images/project-exterior-1.jpg",
+
+    gallery: [
+      "/images/project-exterior-1.jpg",
+      "/images/project-exterior-2.jpg",
+    ],
+
+    videos: [],
+
+  },
+
   {
     slug: "departamento-la-capitania",
 
-    title: "Departamento La Capitanía",
+    title: "Departamento La Capitania",
+
+    category: "interior",
 
     description:
       "Remodelación integral de cocina, baños y espacios interiores.",
 
-    cover: "/images/interiores/capitania/cover.jpg",
+    heroImage: "/images/la-capitania/03_cocina.png",
 
-    images: [
-      "/images/interiores/capitania/1.jpg",
-      "/images/interiores/capitania/2.jpg",
-      "/images/interiores/capitania/3.jpg",
+    gallery: [
+      "/images/la-capitania/03_cocina.png",
     ],
 
-    video:
-      "https://www.youtube.com/watch?v=TU_VIDEO",
+    videos: [],
   },
 
-  {
-    slug: "cocina-roger-de-flor",
-
-    title: "Cocina Roger de Flor",
-
-    description:
-      "Renovación integral de cocina con mejoras en diseño e iluminación.",
-
-    cover: "/images/interiores/roger/cover.jpg",
-
-    images: [
-      "/images/interiores/roger/1.jpg",
-      "/images/interiores/roger/2.jpg",
-    ],
-
-    video:
-      "https://www.youtube.com/watch?v=TU_VIDEO",
-  },
 ];
