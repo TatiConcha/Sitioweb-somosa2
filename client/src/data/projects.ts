@@ -45,6 +45,14 @@ export const projects = [
 
     gallery: [
       "/images/roger-de-flor/hero.jpg",
+      "/images/roger-de-flor/cocina1.jpg",
+      "/images/roger-de-flor/cocina2.jpg",
+      "/images/roger-de-flor/cocina3.jpg",
+      "/images/roger-de-flor/cocina4.jpg",
+      "/images/roger-de-flor/cocina5.jpg",
+      "/images/roger-de-flor/cocina6.jpg",
+      "/images/roger-de-flor/cocina9.jpg",
+      "/images/roger-de-flor/cocinalista.jpg",
     ],
 
     videos: [],
