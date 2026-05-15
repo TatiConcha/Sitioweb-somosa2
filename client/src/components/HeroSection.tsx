@@ -17,7 +17,7 @@ export default function HeroSection() {
         className="absolute inset-0 bg-cover bg-center"
         style={{
           backgroundImage: 'url(/images/hero-main.jpg)',
-          backgroundPosition: 'center',
+          backgroundPosition: 'center center',
         }}
       />
 
@@ -25,7 +25,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30" />
 
       {/* Content */}
-      <div className="relative h-full flex flex-col items-center justify-center container mx-auto px-4 text-center">
+        <div className="relative h-full flex flex-col items-center justify-center w-full max-w-7xl mx-auto px-6 text-center">
         <div className="max-w-2xl space-y-6 animate-in fade-in slide-in-from-bottom-8 duration-1000">
           
           {/* H1 */}

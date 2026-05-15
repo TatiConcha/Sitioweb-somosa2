@@ -14,7 +14,7 @@ export default function ProyectosInteriores() {
       id: 1,
       slug: 'departamento-la-capitania',
       title: 'Departamento La Capitania',
-      image: '/images/la-capitania/hero.jpg',
+      image: '/images/la-capitania/03_cocina.png',
       description: 'Remodelación integral de cocina, baños y espacios interiores con mejoras en diseño, funcionalidad e iluminación.',
     },
     {
