@@ -11,22 +11,22 @@ export default function ProyectosExteriores() {
   const projects = [
     {
       id: 1,
-      title: 'Casa Valle - Lo Barnechea',
+      title: 'Fachada - Lo Reina',
       image: '/images/project-exterior-1.jpg',
     },
     {
       id: 2,
-      title: 'Condominio Chicureo',
+      title: 'Techo - Ñuñoa',
       image: '/images/project-exterior-2.jpg',
     },
     {
       id: 3,
-      title: 'Casa Las Condes',
-      image: '/images/project-exterior-1.jpg',
+      title: 'Forraje galpón - Independencia',
+      image: '/images/galpon-lapaz/terminado.jpg',
     },
     {
       id: 4,
-      title: 'Proyecto Vitacura',
+      title: 'Colegio',
       image: '/images/project-exterior-2.jpg',
     },
   ];
