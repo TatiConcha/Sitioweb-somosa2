@@ -46,7 +46,7 @@ export default function ProjectsSection() {
   <div className="group cursor-pointer relative overflow-hidden rounded-xl h-[400px] md:h-[500px] shadow-lg">
 
     <img
-      src="/images/project-interior-1.jpg"
+      src="/images/project-interior.png"
       alt="Remodelación de interiores en Santiago de Chile"
       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
     />

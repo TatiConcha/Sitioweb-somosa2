@@ -29,6 +29,7 @@ export default function ProyectosInteriores() {
       slug: 'departamento-luisa-guzmán',
       title: 'Departamento Luisa Guzmán',
       image: '/images/luisa-guzman/01_luisag.jpeg',
+      description: 'Renovación de dormitorios y baños con mejoras en diseño e iluminación.',
     },
     {
       id: 4,
