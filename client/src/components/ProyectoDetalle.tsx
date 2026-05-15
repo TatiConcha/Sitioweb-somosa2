@@ -42,7 +42,7 @@ export default function ProyectoDetalle() {
         <img
           src={project.heroImage}
           alt={project.title}
-          className="w-full max-w-6xl mx-auto rounded-2xl shadow-xl object-cover"
+          className="w-full max-w-6xl mx-auto rounded-2xl shadow-xl object-cover max-h-[700px]"
         />
       </div>
 
