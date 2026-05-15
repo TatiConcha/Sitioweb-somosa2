@@ -82,11 +82,22 @@ export const projects = [
     image: "/images/luisa-guzman/01_luisag.jpeg",
 
     gallery: [
-      "/images/luisa-guzman/01_luisag.jpeg",
+      "/images/luisa-guzman/1pieza.webp",
+      "/images/luisa-guzman/2pieza.webp",
+      "/images/luisa-guzman/3pieza.webp",
+      "/images/luisa-guzman/4pieza.webp",
+      "/images/luisa-guzman/5pieza.webp",
+      "/images/luisa-guzman/bano1.webp",
+      "/images/luisa-guzman/bano2.webp",
+       "/images/luisa-guzman/bano3.webp",
+       "/images/luisa-guzman/bano4.webp",
+       "/images/luisa-guzman/bano5.webp",
     ],
-
+       
+  
     videos: [],
-  },
+    
+   },
 
   {
     id: 4,
