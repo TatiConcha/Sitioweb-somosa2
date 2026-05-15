@@ -69,29 +69,35 @@ export default function ProyectoDetalle() {
       </div>
 
       {/* VIDEOS */}
-      {project.videos.length > 0 && (
+{project.videos.length > 0 && (
 
-        <div className="space-y-10">
+  <div className="space-y-10">
 
-          <h2 className="text-3xl font-bold">
-            Videos del proyecto
-          </h2>
+    <h2 className="text-3xl font-bold">
+      Videos del proyecto
+    </h2>
 
-          {project.videos.map((video, index) => (
+    {project.videos.map((video, index) => (
 
-            <video
-              key={index}
-              controls
-              className="w-full max-w-5xl rounded-2xl shadow-xl"
-            >
-              <source src={video} type="video/mp4" />
-            </video>
+      <div
+        key={index}
+        className="aspect-video w-full max-w-5xl mx-auto overflow-hidden rounded-2xl shadow-xl"
+      >
 
-          ))}
+        <iframe
+          src={video}
+          className="w-full h-full"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        />
 
-        </div>
+      </div>
 
-      )}
+    ))}
+
+  </div>
+
+)}
 
     </div>
 

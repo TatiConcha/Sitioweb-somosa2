@@ -21,7 +21,15 @@ export const projects = [
     image: "/images/la-capitania/03_cocina.png",
 
     gallery: [
-      "/images/la-capitania/03_cocina.png",
+      "/images/la-capitania/01_cocina.jpg",
+      "/images/la-capitania/02_cocina.jpg",
+      "/images/la-capitania/04_cocina.jpg",
+      "/images/la-capitania/05_logia.jpg",
+      "/images/la-capitania/06_logia.jpg",
+      "/images/la-capitania/08_baño.jpg",
+      "/images/la-capitania/09_baño.jpg",
+      "/images/la-capitania/10_baño.jpg",
+      "/images/la-capitania/11_baño.jpg",
     ],
 
     videos: [],
@@ -44,7 +52,6 @@ export const projects = [
     image: "/images/roger-de-flor/hero.jpg",
 
     gallery: [
-      "/images/roger-de-flor/hero.jpg",
       "/images/roger-de-flor/cocina1.jpg",
       "/images/roger-de-flor/cocina2.jpg",
       "/images/roger-de-flor/cocina3.jpg",
@@ -166,12 +173,16 @@ export const projects = [
     description:
       "Proyecto de revestimiento y terminaciones exteriores para galpón.",
 
-    heroImage: "/images/galpon-lapaz/terminado.jpg",
+    heroImage: "/images/galpon-lapaz/galpon6.jpg",
 
-    image: "/images/galpon-lapaz/terminado.jpg",
+    image: "/images/galpon-lapaz/galpon6.jpg",
 
     gallery: [
-      "/images/galpon-lapaz/terminado.jpg",
+      "/images/galpon-lapaz/galpon1.jpg",
+       "/images/galpon-lapaz/galpon2.jpg",
+        "/images/galpon-lapaz/galpon3.jpg",
+         "/images/galpon-lapaz/galpon4.jpg",
+          "/images/galpon-lapaz/galpon5.jpg",
     ],
 
     videos: [],
