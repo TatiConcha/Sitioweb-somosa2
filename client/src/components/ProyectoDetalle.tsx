@@ -20,25 +20,81 @@ export default function ProyectoDetalle() {
   }
 
   return (
-    <div className="min-h-screen bg-black text-white p-20">
+  <div className="min-h-screen bg-background text-foreground py-20">
 
-      {/* TÍTULO */}
-      <h1 className="text-5xl font-bold mb-6">
-        {project.title}
-      </h1>
+    <div className="container mx-auto px-4">
 
-      {/* DESCRIPCIÓN */}
-      <p className="text-lg text-white/70 mb-10 max-w-3xl">
-        {project.description}
-      </p>
+      {/* HEADER */}
+      <div className="max-w-4xl mx-auto mb-16">
 
-      {/* IMAGEN PRINCIPAL */}
-      <img
-        src={project.heroImage}
-        alt={project.title}
-        className="w-full max-w-5xl rounded-xl"
-      />
+        <h1 className="text-4xl md:text-5xl font-bold mb-6">
+          {project.title}
+        </h1>
+
+        <p className="text-lg text-muted-foreground leading-relaxed">
+          {project.description}
+        </p>
+
+      </div>
+
+      {/* HERO IMAGE */}
+      <div className="mb-16">
+        <img
+          src={project.heroImage}
+          alt={project.title}
+          className="w-full max-w-6xl mx-auto rounded-2xl shadow-xl object-cover"
+        />
+      </div>
+
+      {/* GALERÍA */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
+
+        {project.gallery.map((image, index) => (
+
+          <div
+            key={index}
+            className="overflow-hidden rounded-2xl shadow-lg"
+          >
+
+            <img
+              src={image}
+              alt={`${project.title} ${index + 1}`}
+              className="w-full h-full object-cover hover:scale-105 transition duration-500"
+            />
+
+          </div>
+
+        ))}
+
+      </div>
+
+      {/* VIDEOS */}
+      {project.videos.length > 0 && (
+
+        <div className="space-y-10">
+
+          <h2 className="text-3xl font-bold">
+            Videos del proyecto
+          </h2>
+
+          {project.videos.map((video, index) => (
+
+            <video
+              key={index}
+              controls
+              className="w-full max-w-5xl rounded-2xl shadow-xl"
+            >
+              <source src={video} type="video/mp4" />
+            </video>
+
+          ))}
+
+        </div>
+
+      )}
 
     </div>
-  );
+
+  </div>
+);
 }
