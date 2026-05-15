@@ -21,15 +21,15 @@ export const projects = [
     image: "/images/la-capitania/03_cocina.png",
 
     gallery: [
-      "/images/la-capitania/01_cocina.jpg",
-      "/images/la-capitania/02_cocina.jpg",
-      "/images/la-capitania/04_cocina.jpg",
-      "/images/la-capitania/05_logia.jpg",
-      "/images/la-capitania/06_logia.jpg",
-      "/images/la-capitania/08_baño.jpg",
-      "/images/la-capitania/09_baño.jpg",
-      "/images/la-capitania/10_baño.jpg",
-      "/images/la-capitania/11_baño.jpg",
+      "/images/la-capitania/01cocina.jpg",
+      "/images/la-capitania/02cocina.jpg",
+      "/images/la-capitania/04cocina.jpg",
+      "/images/la-capitania/05logia.jpg",
+      "/images/la-capitania/06logia.jpg",
+      "/images/la-capitania/07bano.jpg",
+      "/images/la-capitania/08bano.png",
+      "/images/la-capitania/09bano.jpg",
+      "/images/la-capitania/10bano.jpg",
     ],
 
     videos: [],
@@ -96,7 +96,7 @@ export const projects = [
        
   
     videos: [],
-    
+
    },
 
   {
