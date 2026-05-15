@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Navbar from "@/components/Navigation"
 import Footer from "@/components/Footer";
+import { Link } from "wouter";
 
 export default function ProyectosExteriores() {
 
@@ -11,21 +12,25 @@ export default function ProyectosExteriores() {
   const projects = [
     {
       id: 1,
-      title: 'Fachada - Lo Reina',
+      slug: 'fachada-la-reina',
+      title: 'Fachada - La Reina',
       image: '/images/project-exterior-1.jpg',
     },
     {
       id: 2,
+      slug: 'techo-nunoa',
       title: 'Techo - Ñuñoa',
       image: '/images/project-exterior-2.jpg',
     },
     {
       id: 3,
+      slug: 'forraje-galpon-independencia',
       title: 'Forraje galpón - Independencia',
       image: '/images/galpon-lapaz/terminado.jpg',
     },
     {
       id: 4,
+      slug: 'colegio',
       title: 'Colegio',
       image: '/images/project-exterior-2.jpg',
     },
@@ -58,31 +63,42 @@ export default function ProyectosExteriores() {
           </div>
 
           {/* GRID */}
+          
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {projects.map((project) => (
-              <div key={project.id} className="group cursor-pointer">
 
-                <div className="relative overflow-hidden rounded-xl aspect-[4/5] shadow-lg">
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
+  {projects.map((project) => (
 
-                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-all duration-300 flex items-end p-6">
-                    <span className="text-white opacity-0 group-hover:opacity-100 transition">
-                      Ver proyecto →
-                    </span>
-                  </div>
-                </div>
+    <Link
+      href={`/proyectos/${project.slug}`}
+      key={project.id}
+      className="group cursor-pointer block"
+    >
 
-                <h3 className="mt-4 text-lg font-semibold text-foreground">
-                  {project.title}
-                </h3>
+      <div className="relative overflow-hidden rounded-xl aspect-[4/5] shadow-lg">
 
-              </div>
-            ))}
-          </div>
+        <img
+          src={project.image}
+          alt={project.title}
+          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+        />
+
+        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-all duration-300 flex items-end p-6">
+          <span className="text-white opacity-0 group-hover:opacity-100 transition">
+            Ver proyecto →
+          </span>
+        </div>
+
+      </div>
+
+      <h3 className="mt-4 text-lg font-semibold text-foreground">
+        {project.title}
+      </h3>
+
+    </Link>
+
+  ))}
+
+</div>
 
           {/* CTA CON TU LINK DE WHATSAPP */}
           <div className="text-center mt-24">
