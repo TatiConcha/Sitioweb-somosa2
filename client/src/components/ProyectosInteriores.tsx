@@ -12,6 +12,7 @@ export default function ProyectosInteriores() {
   const projects = [
     {
       id: 1,
+      slug: 'departamento-la-capitania',
       title: 'Departamento La Capitania',
       image: '/images/la-capitania/hero.jpg',
       description: 'Remodelación integral de cocina, baños y espacios interiores con mejoras en diseño, funcionalidad e iluminación.',
@@ -25,11 +26,13 @@ export default function ProyectosInteriores() {
     },
     {
       id: 3,
+      slug: 'living-las-condes',
       title: 'Living Las Condes',
       image: '/images/project-interior-1.jpg',
     },
     {
       id: 4,
+       slug: 'bano-contemporaneo',
       title: 'Baño Contemporáneo',
       image: '/images/project-interior-2.jpg',
     },
@@ -64,12 +67,12 @@ export default function ProyectosInteriores() {
           {/* GRID */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project) => (
-              <Link
-  href={`/proyectos/${project.slug}`}
-  key={project.id}
-  className="group cursor-pointer block"
->
-
+       
+ <Link
+    href={`/proyectos/${project.slug}`}
+    key={project.id}
+    className="group cursor-pointer block"
+  >
                 <div className="relative overflow-hidden rounded-xl aspect-[4/5] shadow-lg">
                   <img
                     src={project.image}
@@ -91,7 +94,8 @@ export default function ProyectosInteriores() {
                 <p className="text-muted-foreground mt-2 text-sm leading-relaxed">
   {project.description}
 </p>
-              </Link>
+           </Link>   
+              
             ))}
           </div>
 
