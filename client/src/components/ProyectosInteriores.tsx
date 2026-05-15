@@ -28,7 +28,7 @@ export default function ProyectosInteriores() {
       id: 3,
       slug: 'departamento-luisa-guzmán',
       title: 'Departamento Luisa Guzmán',
-      image: '/images/luisa-guzman/01_luisag.jpg',
+      image: '/images/luisa-guzman/01_luisag.jpeg',
     },
     {
       id: 4,
