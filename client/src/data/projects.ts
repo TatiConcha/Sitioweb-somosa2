@@ -23,6 +23,7 @@ export const projects = [
     gallery: [
       "/images/la-capitania/01cocina.jpg",
       "/images/la-capitania/02cocina.jpg",
+      "/images/la-capitania/03_cocina.png",
       "/images/la-capitania/04cocina.jpg",
       "/images/la-capitania/05logia.jpg",
       "/images/la-capitania/06logia.jpg",
