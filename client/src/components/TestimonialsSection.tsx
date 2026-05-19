@@ -35,9 +35,9 @@ const testimonials: Testimonial[] = [
   },
   {
     id: '3',
-    name: 'Andrea Martínez',
-    role: 'Propietaria - Departamento Chicureo',
-    text: 'La renovación interior de nuestro departamento superó nuestras expectativas. Muy satisfechos con el resultado y el trato recibido.',
+    name: 'Diego Aravena',
+    role: 'Propietario - Casa Las Condes',
+    text: 'Tremenda experiencia, remodelé mi casa ley Pereira de los años 50 con ellos. Cambiaron todo el sistema eléctrico y las cañerías, recuperaron el piso de parquet, repararon y pintaron muros y fachadas, remodelaron completamente 3 baños y la cocina. Todo espectacular, muy buen nivel de terminaciones. Angel es tremendo profesional, entiende que algunos cambios de diseño pueden ir saliendo en el camino y se abre a distintas opciones sin subirse por el chorro en el presupuesto. 100% recomendado.',
     rating: 5,
   },
   {
