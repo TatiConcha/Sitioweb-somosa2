@@ -47,26 +47,35 @@ export default function ProyectoDetalle() {
       </div>
 
       {/* GALERÍA */}
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 max-w-6xl mx-auto mb-20">
-
-        {project.gallery.map((image, index) => (
-
-          <div
-            key={index}
-            className="overflow-hidden rounded-2xl shadow-lg aspect-[4/5]"
-          >
-
-            <img
-              src={image}
-              alt={`${project.title} ${index + 1}`}
-              className="w-full h-full object-cover hover:scale-105 transition duration-500"
-            />
-
-          </div>
-
-        ))}
-
-      </div>
+      {/* GALERÍA */}
+<div
+  className={`grid gap-6 max-w-6xl mx-auto mb-20 ${
+    project.slug === "fachada-la-reina"
+      ? "grid-cols-1 md:grid-cols-2"
+      : "grid-cols-1 md:grid-cols-2 xl:grid-cols-3"
+  }`}
+>
+  {project.gallery.map((image, index) => (
+    <div
+      key={index}
+      className={`overflow-hidden rounded-2xl shadow-lg ${
+        project.slug === "fachada-la-reina"
+          ? ""
+          : "aspect-[4/5]"
+      }`}
+    >
+      <img
+        src={image}
+        alt={`${project.title} ${index + 1}`}
+        className={`w-full hover:scale-105 transition duration-500 ${
+          project.slug === "fachada-la-reina"
+            ? "h-auto object-contain"
+            : "h-full object-cover"
+        }`}
+      />
+    </div>
+  ))}
+</div>
 
       {/* VIDEOS */}
 {project.videos.length > 0 && (
