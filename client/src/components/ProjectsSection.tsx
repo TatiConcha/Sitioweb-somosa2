@@ -23,7 +23,7 @@ export default function ProjectsSection() {
             <div className="group cursor-pointer relative overflow-hidden rounded-xl h-[400px] md:h-[500px] shadow-lg">
 
               <img
-                src="/images/project-exterior-1.jpg"
+                src="/images/project-exterior.png"
                 alt="Remodelación de exteriores en Santiago de Chile"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
