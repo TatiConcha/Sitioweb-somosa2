@@ -139,12 +139,11 @@ export const projects = [
     description:
       "Remodelación completa de fachada exterior con renovación de revestimientos y terminaciones.",
 
-    heroImage: "/images/fachada-lareina/fachada-lareina4.jpg",
+    heroImage: "/images/fachada-lareina/fachada-lareina1.jpg",
 
-    image: "/images/fachada-lareina/fachada-lareina1.jpg",
+    image: "/images/fachada-lareina/fachada-lareina4.jpg",
 
     gallery: [
-      "/images/fachada-lareina/fachada-lareina1.jpg",
       "/images/fachada-lareina/fachada-lareina2.jpg",
       "/images/fachada-lareina/fachada-lareina3.jpg",
       "/images/fachada-lareina/fachada-lareina4.jpg",
