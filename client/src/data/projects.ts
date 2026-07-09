@@ -144,6 +144,7 @@ export const projects = [
     image: "/images/fachada-lareina/fachada-lareina4.jpg",
 
     gallery: [
+      "/images/fachada-lareina/fachada-lareina1.jpg",
       "/images/fachada-lareina/fachada-lareina2.jpg",
       "/images/fachada-lareina/fachada-lareina3.jpg",
       "/images/fachada-lareina/fachada-lareina4.jpg",
