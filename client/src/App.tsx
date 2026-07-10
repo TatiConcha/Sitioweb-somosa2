@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import ProyectosExteriores from "./components/ProyectosExteriores";
 import ProyectosInteriores from "./components/ProyectosInteriores";
 import ProyectoDetalle from "./components/ProyectoDetalle";
+import FloatingWhatsApp from "./components/FloatingWhatsApp";
 
 function Router() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <TooltipProvider>
           <Toaster />
           <Router />
+           <FloatingWhatsApp />
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>

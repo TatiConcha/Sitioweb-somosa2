@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Menu, X, MessageCircle } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import logo from '../assets/Logo.png';
 
@@ -15,12 +15,7 @@ import logo from '../assets/Logo.png';
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
-  const whatsappMessage = encodeURIComponent(
-  'Hola, quiero cotizar un proyecto de remodelación.'
-);
-const whatsappLink = `https://wa.me/56967261907?text=${whatsappMessage}`;
-
-
+  
   const menuItems = [
     { label: 'Inicio', href:'/#inicio'},
     { label: 'Proyectos', href:'/#proyectos'},
@@ -55,16 +50,7 @@ const whatsappLink = `https://wa.me/56967261907?text=${whatsappMessage}`;
               {item.label}
             </a>
           ))}
-          <a
-            href={whatsappLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="p-3 rounded-lg bg-green-500 hover:bg-green-600 text-white transition-all duration-300 hover:shadow-lg hover:shadow-green-500/50"
-            aria-label="WhatsApp"
-            title="Contactar por WhatsApp"
-          >
-            <MessageCircle size={24} />
-          </a>
+          
         </div>
 
         {/* Mobile Menu Button */}
@@ -91,16 +77,7 @@ const whatsappLink = `https://wa.me/56967261907?text=${whatsappMessage}`;
                 {item.label}
               </a>
             ))}
-            <a
-              href={whatsappLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 p-3 rounded-lg bg-green-500 hover:bg-green-600 text-white transition-all duration-300 font-semibold"
-              onClick={() => setIsOpen(false)}
-            >
-              <MessageCircle size={24} />
-              WhatsApp
-            </a>
+            
           </div>
         </div>
       )}

@@ -22,7 +22,7 @@ const testimonials: Testimonial[] = [
   {
     id: '1',
     name: 'Pablo Álamos',
-    role: 'Propietario - Casa La Reina',
+    role: 'Propietario - Fachada La Reina',
     text: 'Tuvimos una experiencia excelente. Nunca tuvimos un problema en la comunicación, si algo debía sumarse o cambiarse, siempre una pregunta antes. La verdad que muy felices, la postventa debe ser única... Parece que fueran amigos. Recomendadísimos.',
     rating: 5,
   },
