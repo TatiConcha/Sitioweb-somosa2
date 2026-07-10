@@ -18,6 +18,7 @@ export default function FloatingWhatsApp() {
         fixed
         bottom-6
         right-6
+        md:right-[max(1.5rem,calc((100vw-1280px)/2))]
         z-[9999]
         flex
         h-14
