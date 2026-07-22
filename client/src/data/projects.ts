@@ -11,10 +11,17 @@ export const projects = [
 
     category: "interior",
 
-    title: "Departamento La Capitania",
+    title: "Departamento Las Condes",
+
+    seoTitle:
+    "Remodelación Integral Departamento Las Condes | Somos A Cuadrado",
+
+    seoDescription:
+    "Proyecto de remodelación integral de departamento en Las Condes. Renovación completa de cocina, baños y logia con nuevos revestimientos, mobiliario, iluminación y terminaciones modernas.",
 
     description:
-      "Remodelación integral de cocina, baños y espacios interiores con mejoras en diseño, funcionalidad e iluminación.",
+      
+  "Remodelación integral de departamento en Las Condes, con renovación completa de cocina, baños y logia. El proyecto incluyó cambio de pisos, revestimientos, mobiliario, ventanas, griferías e iluminación, logrando espacios modernos, funcionales y con terminaciones de alta calidad.",
 
     heroImage: "/images/la-capitania/03_cocina.png",
 
@@ -43,10 +50,17 @@ export const projects = [
 
     category: "interior",
 
-    title: "Cocina Roger de Flor",
+    title: "Cocina Las Condes",
+
+     seoTitle:
+    "Remodelación de Cocina Las Condes | Somos A Cuadrado",
+
+    seoDescription:
+    "Proyecto de remodelación de cocina en Las Condes. Renovación de cocina integrada con nuevos muebles, grifería, iluminación, pisos y barra funcional para optimizar el espacio.",
+
 
     description:
-      "Renovación integral de cocina con mejoras en diseño, funcionalidad e iluminación.",
+       "Remodelación integral de cocina integrada en departamento de Las Condes. El proyecto contempló la renovación de muebles, grifería, pisos, iluminación y barra de cocina, optimizando la distribución del espacio para lograr un ambiente moderno, funcional y acorde a las necesidades del cliente.",
 
     heroImage: "/images/roger-de-flor/hero.jpg",
 
@@ -75,8 +89,16 @@ export const projects = [
 
     title: "Departamento Luisa Guzmán",
 
+     seoTitle:
+    "Remodelación de Departamento Las Condes | Ampliación de Dormitorio y Baño",
+
+
+      seoDescription:
+    "Proyecto de remodelación interior en Las Condes con ampliación de dormitorio principal, renovación de baño, cambio de pisos y nuevas terminaciones para optimizar los espacios del departamento.",
+
     description:
-      "Renovación de dormitorios y baños con mejoras en diseño e iluminación.",
+      "Remodelación interior de departamento en Las Condes, con transformación del dormitorio principal mediante la eliminación de terraza y ampliación del espacio habitable. El proyecto incluyó cambio de pisos, renovación de terminaciones y remodelación completa del baño con nuevos revestimientos, muebles, ducha y grifería, logrando ambientes más modernos, funcionales y confortables.",
+
 
     heroImage: "/images/luisa-guzman/01_luisag.jpeg",
 
@@ -107,10 +129,16 @@ export const projects = [
 
     category: "interior",
 
-    title: "Departamento Suecia",
+    title: "Departamento Providencia",
+
+    seoTitle:
+    "Remodelación Integral Departamento Providencia | Somos A Cuadrado",
+
+    seoDescription:
+     "Proyecto de remodelación integral de departamento en Providencia. Renovación de cocina, baños y dormitorios con muebles de cocina y closets fabricados a medida, vitrificado de parquet y nuevas terminaciones.",
 
     description:
-      "Proyecto de remodelación interior con mejoras en diseño y distribución.",
+       "Remodelación integral de departamento en Providencia, donde se renovaron completamente sus principales espacios interiores. El proyecto contempló vitrificado de piso parquet en living, comedor y pasillo, además de la instalación de nuevos porcelanatos en cocina, dormitorios y baños. Se realizaron remodelaciones completas de baños con nuevos revestimientos, pisos, muebles, vanitorios, receptáculos de ducha y griferías. Renovación de cocina con muebles fabricados a medida, nuevo piso, artefactos y terminaciones. Además los dormitorios con nuevos pisos, pintura y closets diseñados y fabricados a medida.",
 
     heroImage: "/images/project-interior-2.jpg",
 
@@ -136,8 +164,14 @@ export const projects = [
 
     title: "Fachada - La Reina",
 
+     seoTitle:
+    "Remodelación de Fachada La Reina | Ventanas Termopanel",
+
+    seoDescription:
+    "Proyecto de renovación de fachada exterior en La Reina. Pintura de fachada y cambio de ventanas tradicionales por ventanas termopanel para mejorar estética, confort y eficiencia del hogar.",
+
     description:
-      "Remodelación completa de fachada exterior con renovación de revestimientos y terminaciones.",
+      "Renovación de fachada exterior en La Reina, enfocada en mejorar la estética y confort de la vivienda. El proyecto contempló la pintura completa de fachada y el reemplazo de ventanas existentes por ventanas termopanel, logrando una mejora en el aislamiento térmico y actualización visual del exterior.",
 
     heroImage: "/images/fachada-lareina/fachada-lareina1.jpg",
 
@@ -186,6 +220,12 @@ export const projects = [
 
     title: "Forraje galpón - Independencia",
 
+    seoTitle:
+    "Revestimiento y Recuperación de Galpón en Independencia | Somos A Cuadrado",
+
+    seoDescription:
+    "Proyecto de recuperación y mejora exterior de galpón en Independencia. La estructura existente contaba únicamente con techo y muros de ladrillo en malas condiciones, por lo que se realizó un revestimiento completo mediante instalación de hojalatería y malla, mejorando la protección, resistencia y terminación del espacio.",
+
     description:
       "Proyecto de revestimiento y terminaciones exteriores para galpón.",
 
@@ -203,7 +243,7 @@ export const projects = [
 
     videos: [],
   },
-
+/*
   {
     id: 8,
 
@@ -226,5 +266,5 @@ export const projects = [
 
     videos: [],
   },
-
+*/
 ];
