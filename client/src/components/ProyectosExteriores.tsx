@@ -35,8 +35,12 @@ export default function ProyectosExteriores() {
               Proyectos de Exteriores
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Descubre nuestros proyectos de remodelación de exteriores en Santiago de Chile. 
-              Diseñamos espacios exteriores modernos, funcionales y duraderos, cuidando cada detalle.
+             <p className="text-lg text-muted-foreground leading-relaxed">
+  Conoce nuestros proyectos de remodelación de exteriores en Santiago de Chile.
+  Desarrollamos renovaciones de fachadas, techumbres, revestimientos,
+  mejoras estructurales y espacios exteriores, combinando diseño,
+  protección y durabilidad para cada proyecto.
+</p>
             </p>
           </div>
 

@@ -224,10 +224,10 @@ export const projects = [
     "Revestimiento y Recuperación de Galpón en Independencia | Somos A Cuadrado",
 
     seoDescription:
-    "Proyecto de recuperación y mejora exterior de galpón en Independencia. La estructura existente contaba únicamente con techo y muros de ladrillo en malas condiciones, por lo que se realizó un revestimiento completo mediante instalación de hojalatería y malla, mejorando la protección, resistencia y terminación del espacio.",
+    "Proyecto de recuperación de galpón en Independencia mediante revestimiento exterior con hojalatería y malla. Mejora de protección, terminaciones y durabilidad de la estructura existente.",
 
     description:
-      "Proyecto de revestimiento y terminaciones exteriores para galpón.",
+      "Proyecto de recuperación y mejora exterior de galpón en Independencia. La estructura existente contaba únicamente con techo y muros de ladrillo en malas condiciones, por lo que se realizó un revestimiento completo mediante instalación de hojalatería y malla exterior, mejorando la protección, resistencia y terminación del espacio.",
 
     heroImage: "/images/galpon-lapaz/galpon6.jpg",
 

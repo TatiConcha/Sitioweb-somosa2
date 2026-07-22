@@ -35,8 +35,12 @@ export default function ProyectosInteriores() {
             </h1>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Descubre nuestros proyectos de remodelación de interiores en Santiago de Chile.
-              Diseñamos espacios funcionales, modernos y armónicos, cuidando cada detalle desde el diseño hasta la ejecución.
+              <p className="text-lg text-muted-foreground leading-relaxed">
+  Conoce nuestros proyectos de remodelación de interiores en Santiago de Chile.
+  Renovamos casas y departamentos creando espacios modernos y funcionales,
+  con especialización en cocinas, baños, dormitorios, mobiliario a medida
+  y terminaciones de alta calidad.
+</p>
             </p>
           </div>
 
@@ -67,9 +71,11 @@ export default function ProyectosInteriores() {
                 <h3 className="mt-4 text-lg font-semibold text-foreground">
                   {project.title}
                 </h3>
-                <p className="text-muted-foreground mt-2 text-sm leading-relaxed">
+                {/*
+            <p className="text-muted-foreground mt-2 text-sm leading-relaxed">
   {project.description}
 </p>
+*/}
            </Link>   
               
             ))}
