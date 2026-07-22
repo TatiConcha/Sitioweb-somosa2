@@ -197,15 +197,25 @@ export const projects = [
 
     title: "Techo - Ñuñoa",
 
+     seoTitle:
+    "Reparación de Techumbre en Ñuñoa | Cambio de Tejas Asfálticas",
+
+    seoDescription:
+    "Proyecto de reparación de techumbre en Ñuñoa con reparación de estructura, reemplazo de tejas antiguas e instalación de tejas asfálticas para mejorar la seguridad y durabilidad del techo.",
+
     description:
-      "Proyecto de renovación y mejoramiento de techumbre exterior.",
+       "Proyecto de reparación de techumbre en una vivienda de Ñuñoa. Los trabajos contemplaron la reparación de la estructura del techo mediante la restauración de la cercha, el retiro de las tejas antiguas y la instalación de nuevas tejas asfálticas, mejorando la resistencia, impermeabilidad y vida útil de la cubierta.",
 
-    heroImage: "/images/project-exterior-2.jpg",
+    heroImage: "/images/techo-nunoa/techo-nunoa1.png",
 
-    image: "/images/project-exterior-2.jpg",
+    image: "/images/techo-nunoa/techo-nunoa1.png",
 
     gallery: [
-      "/images/project-exterior-2.jpg",
+      "/images/techo-nunoa/techo-nunoa2.png",
+      "/images/techo-nunoa/techo-nunoa3.jpg",
+      "/images/techo-nunoa/techo-nunoa4.png",
+      "/images/techo-nunoa/techo-nunoa5.png",
+
     ],
 
     videos: [],
