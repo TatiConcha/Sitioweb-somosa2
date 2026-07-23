@@ -140,12 +140,34 @@ export const projects = [
     description:
        "Remodelación integral de departamento en Providencia, donde se renovaron completamente sus principales espacios interiores. El proyecto contempló vitrificado de piso parquet en living, comedor y pasillo, además de la instalación de nuevos porcelanatos en cocina, dormitorios y baños. Se realizaron remodelaciones completas de baños con nuevos revestimientos, pisos, muebles, vanitorios, receptáculos de ducha y griferías. Renovación de cocina con muebles fabricados a medida, nuevo piso, artefactos y terminaciones. Además los dormitorios con nuevos pisos, pintura y closets diseñados y fabricados a medida.",
 
-    heroImage: "/images/project-interior-2.jpg",
+    heroImage: "/images/suecia/depto-suecia1.jpg",
 
-    image: "/images/project-interior-2.jpg",
+    image: "/images/suecia/depto-suecia1.jpg",
 
     gallery: [
-      "/images/project-interior-2.jpg",
+     "/images/suecia/depto-suecia2.jpg",
+     "/images/suecia/depto-suecia3.jpg",
+     "/images/suecia/depto-suecia4.jpg",
+     "/images/suecia/depto-suecia5.jpg",
+     "/images/suecia/depto-suecia6.jpg",
+     "/images/suecia/depto-suecia7.jpg",
+     "/images/suecia/depto-suecia8.jpg",
+     "/images/suecia/depto-suecia9.jpg",
+     "/images/suecia/depto-suecia10.jpg",
+     "/images/suecia/depto-suecia11.jpg",
+     "/images/suecia/depto-suecia12.jpg",
+     "/images/suecia/depto-suecia13.jpg",
+     "/images/suecia/depto-suecia14.jpg",
+     "/images/suecia/depto-suecia15.jpg",
+     "/images/suecia/depto-suecia16.jpg",
+      "/images/suecia/depto-suecia17.jpg",
+     "/images/suecia/depto-suecia18.jpg",
+      "/images/suecia/depto-suecia19.jpg",
+      "/images/suecia/depto-suecia20.jpg",
+      "/images/suecia/depto-suecia21.jpg",
+
+
+
     ],
 
     videos: [],
